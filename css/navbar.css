@@ -1,0 +1,54 @@
+#dois{
+   color: #fff;
+   transition: color 0.5s;
+}
+
+#dois:hover{
+   color: #ffa500;
+   
+}
+
+.navbar{
+   background-color: #4A249D;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.navbar-brand{
+   margin-right: 100px;
+   font-size: 3em;
+   color: #ffa500;
+   transition: color 0.5s;
+}
+
+.navbar-brand:hover{
+   color: #fff;
+}
+
+.navbar-toggler{
+   border: 1px solid #fff !important;
+   color: #fff !important;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+ }
+
+ .nav-link{
+   font-weight: 300;
+   font-size: 1.5em;
+   color: #fff;;
+   transition: color 0.5s;
+ }
+ 
+ .nav-link:hover{
+   color: #ffa500;;
+ }
+
+ .nav-link:visited{
+   color: #fff;
+ }
+
+ .collapse.navbar-collapse.um{
+   justify-content: center;
+ }
