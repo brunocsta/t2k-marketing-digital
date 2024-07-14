@@ -52,3 +52,19 @@
  .collapse.navbar-collapse.um{
    justify-content: center;
  }
+
+ .icon-case{
+   display: flex;
+   gap: 25px;
+   justify-content: right;
+   min-width: 300px;
+ }
+
+ .dropdown-item:hover{
+   color: #fff;
+   background-color: #433D8B;
+ } 
+
+.dropdown-menu{
+   background-color: #C8ACD6;
+}
