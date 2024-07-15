@@ -2,6 +2,10 @@
    color: #000;
 }
 
+.txt-container{
+   max-width: 600px;
+}
+
 .introduction-title{
    font-size: 3em;
    font-weight: 600;
@@ -14,9 +18,64 @@
 .introduction-text{
    font-size: 1.3em;
    font-weight: 300;
+   color: grey;
 }
 
 .introduction-microtitle{
    color: grey;
- font-weight: 200;
+   font-weight: 200;
+}
+
+.images-container{
+   position: relative;
+   width: 150px;
+}
+
+.side-image{
+   width: 300px;
+   object-fit: cover;
+}
+
+.container.d-flex{
+   gap: 10px;
+   overflow: hidden;
+} 
+
+.card-container{
+   display: flex;
+   flex-direction: column;
+   gap: 23px;
+   width: 160px !important;
+   color: #000;
+}
+
+.mini-card{
+   border: 1px solid #e1dcdc;
+   height: 150px;
+   width: 150px;
+}
+
+.bi-patch-check-fill, .bi-award-fill, .bi-hand-thumbs-up-fill {
+   font-size: x-large;
+   height: 30px;
+   width: 30px;
+   color: #ffa500;
+}
+
+.images-container{
+   display: flex;
+   width: 100%;
+   gap: 20px;
+
+}
+
+.banner-container{
+   width: 340px;
+}
+
+@media(max-width: 768px) {
+   .container.d-flex{
+      display: flex;
+      flex-direction: column;
+   }
 }
