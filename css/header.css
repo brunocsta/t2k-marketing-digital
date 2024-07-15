@@ -1,5 +1,5 @@
 .container-fluid.header{
-   background-image: url("imgs/purple-banner.jpg");
+   background-image: url("/imgs/purple-banner.jpg") !important;
    background-repeat: no-repeat;
    background-size: cover;
    height: 85vh;
