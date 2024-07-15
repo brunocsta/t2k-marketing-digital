@@ -1,0 +1,22 @@
+.introduction > .container > *{
+   color: #000;
+}
+
+.introduction-title{
+   font-size: 3em;
+   font-weight: 600;
+}
+
+.introduction-subtitle{
+   font-weight: 500;
+}
+
+.introduction-text{
+   font-size: 1.3em;
+   font-weight: 300;
+}
+
+.introduction-microtitle{
+   color: grey;
+ font-weight: 200;
+}
