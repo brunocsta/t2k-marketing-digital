@@ -1,0 +1,23 @@
+.container-fluid.header{
+   background-image: url("/imgs/office-banner.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+
+@media(max-width: 690px){
+   .container-fluid.header{
+      background-image: url("/imgs/banner-office-sm.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 50vh ;
+   }
+}
+
+.mkt-digital{
+   font-weight: 900;
+}
+
+.container{
+   color: #fff;
+}

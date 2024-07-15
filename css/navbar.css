@@ -1,3 +1,7 @@
+.archivo{
+   font-family: 'Archivo', Arial, Helvetica, sans-serif !important;
+}
+
 #dois{
    color: #fff;
    transition: color 0.5s;
@@ -9,12 +13,16 @@
 }
 
 .navbar{
+   box-shadow: 0px 5px 30px #000;
    background-color: #4A249D;
    padding-left: 20px;
    padding-right: 20px;
 }
 
+
+
 .navbar-brand{
+   font-weight: 900;
    margin-right: 100px;
    font-size: 3em;
    color: #ffa500;
@@ -35,7 +43,7 @@
  }
 
  .nav-link{
-   font-weight: 300;
+   font-weight: 400;
    font-size: 1.5em;
    color: #fff;;
    transition: color 0.5s;
