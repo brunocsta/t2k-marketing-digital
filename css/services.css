@@ -1,9 +1,41 @@
 .services{
    background-color: #2E236C;
-   color: #fff;
-   height: 50vh;
 }
 
 .service-card{
-   background-color: #4A249D;
+   padding: 15px 30px 20px 30px !important;
+   border: 2px solid white;
+   width: 40%;
+}
+
+.paragraph{
+   font-size: 2em;
+}
+
+.row.row-cols-2.gy-2{
+   column-gap: 2rem;
+   row-gap: 2rem;
+   align-items: center;
+   justify-content: center;
+}
+
+.card-title{
+   font-size: 1.1em;
+}
+
+.card-text{
+   font-size: 0.8em;
+}
+
+.service-card > i {
+   font-size: 2em;
+   margin-bottom: 30px !important;
+}
+
+.container-text{
+   margin-left: 50px;
+}
+
+#button-service{
+   margin-top: 25px;
 }
