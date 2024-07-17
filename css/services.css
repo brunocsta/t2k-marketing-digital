@@ -39,3 +39,35 @@
 #button-service{
    margin-top: 25px;
 }
+
+@media(max-width: 576px){
+   .row.mx-auto{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+   }
+   
+   .container-text{
+      box-sizing: border-box;
+      margin: 0px;
+      width: 350px;
+   }
+   
+   .title.service-title{
+      font-size: 2em;
+   }
+   
+   .paragraph{
+      font-size: 1.5em;
+   }
+   
+   .cards-container{
+      display: flex;
+      flex-direction: column;
+      gap: 10px !important;
+   }
+   
+   .service-card{
+      width: 90%;
+   }
+}

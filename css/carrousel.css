@@ -1,0 +1,24 @@
+.circle-progress {
+   width: 100px; /* Adjust size as needed */
+   height: 100px; /* Adjust size as needed (make sure it's the same) */
+   position: relative; /* Needed for centering the circle */
+ }
+ 
+ .circle {
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   border: 8px solid #ddd; /* Adjust border color and thickness */
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
+ 
+ .value {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%); /* Center the text */
+   font-size: 20px; /* Adjust font size */
+ }
+ 
