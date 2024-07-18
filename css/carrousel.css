@@ -1,6 +1,18 @@
+ul{
+   padding-left: 0;
+}
+.time{
+   margin: 0;
+   padding: 0 35px;
+   box-sizing: border-box;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: linear-gradient(to left top, #031A9A, #8B53FF);
+}
 
 .wrapper{
-   min-width: 1100px;
    width: 100%;
    position: relative;
 }
@@ -21,7 +33,7 @@
 }
 
 .wrapper i:first-child{
-   left: 0px;
+   left: -22px;
 }
 
 .wrapper i:last-child{
@@ -32,7 +44,7 @@
    display: grid;
    grid-auto-flow: column;
    grid-auto-columns: calc((100% / 3) - 12px);
-   gap: 1rem;
+   gap: 16px;
    overflow: hidden;
 }
 
@@ -40,21 +52,16 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   
-
+   flex-direction: column;
 }
 
 .carrousel .cards{
    height: 342px;
    list-style: none;
    background: #fff;
-   border-radius: 8px;
-   display: flex;
+   border-radius: 8px;   
    cursor: pointer;
    padding-bottom: 15px;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
 }
 
 .cards .img{
@@ -81,4 +88,18 @@
 .cards span{
    color: #6a6d78;
    font-size: 1.31rem;
+}
+
+@media screen and (max-width: 900px) {
+   .wrapper .carrousel{
+      grid-auto-columns: calc((100% / 2) - 9px) !important;
+     
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .wrapper .carrousel{
+      grid-auto-columns: 100% !important;
+     
+   }
 }
