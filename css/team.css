@@ -1,7 +1,9 @@
-.time{
-   min-height: 100vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+.time.container-fluid{
+   min-height: 100vh !important;
+   display: flex !important;
+   align-items: center !important;
+   justify-content: center !important;
    background: linear-gradient(to left top, #031A9A, #8B53FF);
+   padding-right: 35px !important;
+   padding-top: ;
 }

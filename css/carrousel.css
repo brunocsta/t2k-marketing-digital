@@ -2,6 +2,30 @@
 .wrapper{
    min-width: 1100px;
    width: 100%;
+   position: relative;
+}
+
+.wrapper i{
+   width: 50px;
+   height: 50px;
+   background: #fff;
+   text-align: center;
+   line-height: 50px;
+   border-radius: 50%;
+   cursor: pointer;
+   position: absolute;
+   font-size: 1.25rem;
+   top: 50%;
+   transform: translateY(-50%);
+   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.wrapper i:first-child{
+   left: 0px;
+}
+
+.wrapper i:last-child{
+   right: -22px;
 }
 
 .wrapper .carrousel{
@@ -9,6 +33,7 @@
    grid-auto-flow: column;
    grid-auto-columns: calc((100% / 3) - 12px);
    gap: 1rem;
+   overflow: hidden;
 }
 
 .carrousel :where(.cards, .img){
@@ -25,6 +50,7 @@
    background: #fff;
    border-radius: 8px;
    display: flex;
+   cursor: pointer;
    padding-bottom: 15px;
    align-items: center;
    justify-content: center;
@@ -49,4 +75,10 @@
 .cards h2{
    font-weight: 500;
    font-size: 1.56rem;
+   margin: 30px 0 5px;
+}
+
+.cards span{
+   color: #6a6d78;
+   font-size: 1.31rem;
 }
