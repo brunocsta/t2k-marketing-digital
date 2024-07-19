@@ -45,8 +45,16 @@ ul{
    grid-auto-flow: column;
    grid-auto-columns: calc((100% / 3) - 12px);
    gap: 16px;
-   overflow: hidden;
+   overflow-x: auto;
+   scroll-snap-type: x mandatory;
+   scroll-behavior: smooth;
+   scrollbar-width: none;
 }
+
+.carrousel::-webkit-scrollbar{
+   display: none;
+}
+
 
 .carrousel :where(.cards, .img){
    display: flex;
@@ -55,7 +63,22 @@ ul{
    flex-direction: column;
 }
 
+.carrousel.no-transition{
+   scroll-behavior: auto;  
+}
+
+.carrousel.arrastando{
+   scroll-snap-type: none;
+   scroll-behavior: auto;
+}
+
+.carrousel.arrastando .cards{
+   cursor: grab;
+   user-select: none;
+}
+
 .carrousel .cards{
+   scroll-snap-align: start;
    height: 342px;
    list-style: none;
    background: #fff;
