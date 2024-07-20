@@ -2,8 +2,8 @@ ul{
    padding-left: 0;
 }
 .time{
-   margin: 0;
-   padding: 0 35px;
+   margin: 0 auto;
+   padding: 48px 35px;
    box-sizing: border-box;
    min-height: 100vh;
    display: flex;
@@ -16,15 +16,23 @@ ul{
 .time-container{
    text-align: left;
    width: 100%;
-}
-
-.time-container .introduction-subtitle{
+   margin-left: 50px;
+   margin-right: auto;
    margin-bottom: 50px;
 }
 
+.container-paragraph{
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-bottom: 100px;
+   text-align: left;
+}
+
+
 .wrapper{
-   width: 100%;
+   width: 95%;
    position: relative;
+   margin-bottom: 50px;
 }
 
 .wrapper i{
