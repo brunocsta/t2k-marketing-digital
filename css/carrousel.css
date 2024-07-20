@@ -7,9 +7,19 @@ ul{
    box-sizing: border-box;
    min-height: 100vh;
    display: flex;
+   flex-direction: column;
    align-items: center;
    justify-content: center;
-   background: linear-gradient(to left top, #031A9A, #8B53FF);
+   background: #fff;
+}
+
+.time-container{
+   text-align: left;
+   width: 100%;
+}
+
+.time-container .introduction-subtitle{
+   margin-bottom: 50px;
 }
 
 .wrapper{
@@ -18,15 +28,17 @@ ul{
 }
 
 .wrapper i{
+   border: 1px solid white;
    width: 50px;
    height: 50px;
-   background: #fff;
+   background: #ffa500;
    text-align: center;
    line-height: 50px;
    border-radius: 50%;
    cursor: pointer;
    position: absolute;
-   font-size: 1.25rem;
+   font-size: 1.3rem;
+   color: #fff;
    top: 50%;
    transform: translateY(-50%);
    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -81,14 +93,14 @@ ul{
    scroll-snap-align: start;
    height: 342px;
    list-style: none;
-   background: #fff;
+   background: linear-gradient(to left top, #2E236C, #20184c);
    border-radius: 8px;   
    cursor: pointer;
    padding-bottom: 15px;
 }
 
 .cards .img{
-   background: #8B53FF;
+   background: #ffa500;
    width: 148px;
    height: 148px;
    border-radius: 50%;
@@ -106,11 +118,12 @@ ul{
    font-weight: 500;
    font-size: 1.56rem;
    margin: 30px 0 5px;
+   color: #fff;
 }
 
 .cards span{
-   color: #6a6d78;
-   font-size: 1.31rem;
+   color: #ffa500;
+   font-size: 1.21rem;
 }
 
 @media screen and (max-width: 900px) {
